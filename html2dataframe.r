@@ -5,7 +5,7 @@
 ####SETUP####
 library(rvest)
 library(stringi)
-page_html <- read_html("page1.html") ## une page lue par phantom_scrape.js
+page_html <- read_html("page1.html")
 
 
 ####LIRE DATA
