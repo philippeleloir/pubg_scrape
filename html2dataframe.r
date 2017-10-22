@@ -134,14 +134,6 @@ dt2$Revives <- data$Revives
 # ## Consommation de meds nulle dans les parties gagnées
 # filter(dt2, Resultat=="Win", Boosts==0, Heals==0)[c("Heals","Boosts", "Playmode")]
 # 
-# ####DUMP
-# ### WIP - pas en fonction
-# data$RatingAdd <- NULL##
-# for(nb in sapply(str_extract_all((substr(data[,"Rating"],6,16)),"[0-9]*"), as.numeric)){
-#   print(nb[4])
-# }
-# 
-# 
 # ####EXPLORATION####
 # #pour explorer la page
 # divs <- html_nodes(page_html, 'div')
