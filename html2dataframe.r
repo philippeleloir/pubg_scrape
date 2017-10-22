@@ -1,4 +1,4 @@
-## scrape1anal.r par leloir
+
 ## Script pour lire une page extraite par phantomjs
 ## 2017-09-16
 

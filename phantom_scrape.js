@@ -1,4 +1,4 @@
-// scrape2.js pour utiliser phantomjs@pubg.me/player/VissGames/matches
+// telecharger les donnees d'un joueur de playerunknown's battlegrounds
 var page = new WebPage();
 var fs = require('fs');
 var urlv = []
